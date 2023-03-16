@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 30px 50px;
+}
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+}
+.blog__box{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.blog__title h1{
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgba(33, 36, 61, 1);
+}
+.blog__box1{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blog__box1 h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgba(33, 36, 61, 1);
+}
+.name{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.name h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(33, 36, 61, 1);
+}
+.line{
+    width: 0;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.name h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(134, 149, 164, 1);
+}
+.blog__box1 p{
+    width: 600px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(33, 36, 61, 1);
+    line-height: 23px;
+}
+.line2{
+    width: 100%;
+    border: 0.8px solid rgba(224, 224, 224, 1);
+}
+footer{
+    padding: 100px 10px;
+    width: 100%;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+footer p{
+    margin: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgba(33, 36, 61, 1);
+}
+.media a{
+    color: rgba(33, 36, 61, 1);
+    font-size: 35px;
+}
+@media (max-width: 646px) {
+    header{
+        display: none;
+    }
+    .blog__box1 p{
+        width: 100%;
+    }
+    .blog__title h1{
+        font-size: 30px;
+    }
+    .blog__box1 h1{
+        font-size: 25px;
+    }
+}

@@ -247,7 +247,12 @@ footer p{
         text-align: center;
         align-items: center;
     }
-   
+    .int__title{
+        width: 90%;
+    }
+    .int__title h1{
+        font-size: 32px;
+    }
     .work__box1 p{
         width: 90%;
     }
